@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div class="container" id="container">
+
+        <!-- Sign Up -->
+        <div class="form-container sign-up">
+            <form>
+                <h1>Create Account</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon" aria-label="Google"><i class="fab fa-google"></i></a>
+                    <a href="#" class="icon" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="icon" aria-label="Phone"><i class="fas fa-phone"></i></a>
+                    <a href="#" class="icon" aria-label="Profile"><i class="fas fa-user-circle"></i></a>
+                </div>
+                <span>or use email to register</span>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button type="button">Sign Up</button>
+            </form>
+        </div>
+
+        <!-- Login -->
+        <div class="form-container login">
+            <form>
+                <h1>Login</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon" aria-label="Google"><i class="fab fa-google"></i></a>
+                    <a href="#" class="icon" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="icon" aria-label="Phone"><i class="fas fa-phone"></i></a>
+                    <a href="#" class="icon" aria-label="Profile"><i class="fas fa-user-circle"></i></a>
+                </div>
+                <span>or use email & password</span>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <a href="#">Forgot Your Password?</a>
+                <button type="button">Login</button>
+            </form>
+        </div>
+
+        <!-- Toggle (ONE container, TWO panels) -->
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Welcome Back!</h1>
+                    <p>Enter your personal details to access the site features</p>
+                    <button class="hidden" id="login">Login</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Hello There!</h1>
+                    <p>Register with your personal details to access the site features</p>
+                    <button class="hidden" id="register">Sign Up</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
